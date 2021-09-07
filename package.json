@@ -1,0 +1,13 @@
+{
+  "name": "Nhaccuatui",
+  "version": "1.0.0",
+  "description": "Nhacuatui API",
+  "main": "index.js",
+  "author": "whoant",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "crypto-js": "^4.1.1",
+    "querystring": "^0.2.1"
+  }
+}
