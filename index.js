@@ -1,7 +1,14 @@
 const callApi = require('./lib');
 
 class Nhaccuatui {
-    getMediaInfo(key) {
+    getSong(key) {
+        return callApi.post('/media/info', {
+            key,
+            type: 'song',
+        });
+    }
+
+    getPlaylist(key) {
         return callApi.post('/media/info', {
             key,
             type: 'playlist',
