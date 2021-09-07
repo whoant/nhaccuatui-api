@@ -1,5 +1,5 @@
 {
-  "name": "Nhaccuatui",
+  "name": "nhaccuatui-api",
   "version": "1.0.0",
   "description": "Nhacuatui API",
   "main": "index.js",
@@ -9,5 +9,17 @@
     "axios": "^0.21.4",
     "crypto-js": "^4.1.1",
     "querystring": "^0.2.1"
+  },
+  "keywords": [
+    "nhaccuatui",
+    "api-nhaccuatui",
+    "nhaccuatui-api",
+    "api-music",
+    "music",
+    "music-api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git//github.com/whoant/nhaccuatui.git"
   }
 }
